@@ -1,0 +1,14 @@
+.grid-items{
+    height:50px ;
+    width: 70px;
+
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-columns: repeat(2,700px);
+    row-gap: 70px;
+    column-gap: 90px;
+}
